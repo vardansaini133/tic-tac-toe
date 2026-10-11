@@ -31,6 +31,9 @@ h1 {
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 30px;
+    background: linear-gradient(90deg,#ff3cac,#25e9ff);
+    background-clip: text;
+    color: transparent;
 }
 
 .box {
@@ -60,6 +63,7 @@ h1 {
     color: #fff;
     border-radius: 1rem;
     border: none;
+    
 }
 
 #msg {
@@ -69,7 +73,13 @@ h1 {
 }
 
 .msg-container {
-    height: 30vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
 }
 
 .hide {
